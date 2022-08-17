@@ -8,6 +8,19 @@
             "ref": "64d8583af5ea57b7afa4aba4b159907f3a148b05"
         }
     },
+    "doctrine/mongodb-odm-bundle": {
+        "version": "4.5",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "4.4",
+            "ref": "838e2cfe094621c1c40ec2dd2166f1a48b895180"
+        },
+        "files": [
+            "config/packages/doctrine_mongodb.yaml",
+            "src/Document/.gitignore"
+        ]
+    },
     "symfony/console": {
         "version": "6.1",
         "recipe": {
@@ -49,6 +62,18 @@
             "./public/index.php",
             "./src/Controller/.gitignore",
             "./src/Kernel.php"
+        ]
+    },
+    "symfony/monolog-bundle": {
+        "version": "3.8",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "3.7",
+            "ref": "213676c4ec929f046dfde5ea8e97625b81bc0578"
+        },
+        "files": [
+            "config/packages/monolog.yaml"
         ]
     },
     "symfony/routing": {
